@@ -2,7 +2,7 @@ const http = require('http')
 
 const server = http.createServer(function (req, res){
     res.writeHead(200, {'Content-Type' : 'text/html'});
-    res.write('HI, selamat data di <b>NodeJS</b> ');
+    res.write('hi, selamat data di <b>NodeJS</b> ');
     res.end('<div>hi, selamat data di Node js</dib>');
 });
 
